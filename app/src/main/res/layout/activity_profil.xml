@@ -10,16 +10,17 @@
         android:layout_width="203dp"
         android:layout_height="113dp"
         android:layout_marginStart="104dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="61dp"
         android:layout_marginEnd="104dp"
-        android:layout_marginBottom="325dp"
+        android:layout_marginBottom="276dp"
         android:text="text"
         android:textAlignment="center"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/avatar" />
+        app:layout_constraintTop_toBottomOf="@+id/zmiana" />
 
     <ImageButton
         android:id="@+id/avatar"
@@ -32,4 +33,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/zmiana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="zmien avatar"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="232dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
